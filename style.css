@@ -1,0 +1,163 @@
+body {
+    font-family: "Gilroy";
+}
+
+.container-navbar {
+    height: 1084px;
+    max-width: 100%;
+    background-position: center;
+    color: white;
+}
+
+.container-navbar a {
+    color: white;
+}
+
+.container-navbar .container-fluid {
+    margin: 40px 40px;
+}
+
+.navbar-and-burger {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-navbar .lead .mb-4 {
+    margin: 14px 0 45px 0;
+}
+
+.container-navbar .d-flex .d-flex_border {
+    display: flex;
+    background: rgba(255, 255, 255, 0.15);
+    border: 0.861538px solid rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(4px);
+    border-radius: 42px;
+    align-items: center;
+    height: 56px;
+    width: 344px;
+}
+
+.container-navbar .d-flex .btn {
+    background-color: #E58411;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 24px;
+}
+
+.container-navbar .d-flex .form-control {
+    width: 288px;
+    background: none;
+    color: white;
+    border: none;
+}
+
+.container-navbar .d-flex .form-control::placeholder {
+    color: white;
+}
+
+.container-navbar .navbar-toggler-icons {
+    color: white;
+}
+
+.card-why {
+    padding: 158px 60px;
+}
+
+.col_second .col {
+    margin-bottom: 30px;
+}
+
+.col_second .col p {
+    font-size: 16px;
+}
+
+.col_second .col a {
+    color: #E58411;
+    text-decoration: none;
+}
+
+.container-sm .nav-tabs .nav-item .active{
+    border-radius: 32px;
+    --bs-nav-tabs-link-active-color: #000;
+    --bs-nav-tabs-link-active-bg: white;
+}
+
+.container-sm_style {
+    background-color: #EEEEEE;
+    border-radius: 44px;
+    width: 348px;
+    height: 57px;
+    display: flex;
+    align-items: center;
+}
+
+.container-sm_style .nav-link {
+    color: #000;
+    font-size: 18px;
+}
+
+.container_link a {
+    color: #E58411;
+    text-decoration: none;
+}
+
+.carousel-inner{
+    padding: 1em;
+}
+
+.carousel-item .card{
+    margin: 0 .5em;
+    border: none;
+    width: 401px;
+    height: 557px;
+}
+
+.carousel-item .card img {
+    max-height: 100%;
+}
+
+.footer-conteiner a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  .card .img-wrapper {
+    height: 17em;
+  }
+
+  .navbar-and-burger {
+    width: 100%;
+  }
+
+  
+}
+
+@media (min-width: 768px) {
+    .carousel-inner {
+      display: flex;
+    }
+    .carousel-item {
+      margin-right: 0;
+      flex: 0 0 33.333333%;
+      display: block;
+    }
+
+    .navbar-and-burger {
+        width: 100%;
+      }
+  }
+
+
+@media (max-width: 768px) {
+    .card-why .col {
+        display: block;
+    }
+}
+
+@media (max-width: 376px) {
+    .card-why .row {
+        display: block;
+    }
+}
